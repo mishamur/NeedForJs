@@ -1,0 +1,10 @@
+.hide{               /*объявляем класс*/
+    display: none; /*у которого параметр display = none */
+}
+
+.car{
+    width: 50px;
+    height: 100px;
+    /* задний фон делаем картинкой, center - выравниваем по центру, cover - растягиваем по блоку(div)*/
+    background: transparent url('image/player.jpg') center / cover no-repeat;
+}
